@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/Users/jbaty/bin/getwttr | pbcopy
+
