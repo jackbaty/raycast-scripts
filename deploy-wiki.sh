@@ -19,6 +19,7 @@ target_dir=~/Sync/wikis/rudimentarylathe
 if [ -d $target_dir ]
 then
     cd $target_dir
+    echo "Deploying wiki"
     make deploy
 else
     echo "Target directory ${target_dir} does not exist. Cannot deploy"
